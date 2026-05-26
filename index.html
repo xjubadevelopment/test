@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Website</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+    }
+
+    header{
+      background:#0077ff;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#0055cc;
+      padding:10px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    .hero{
+      height:300px;
+      background:linear-gradient(to right, #0077ff, #00c6ff);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:48px;
+    }
+
+    .container{
+      padding:40px;
+      text-align:center;
+    }
+
+    .cards{
+      display:flex;
+      gap:20px;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-top:30px;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      width:250px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:40px;
+    }
+
+    button{
+      margin-top:15px;
+      padding:10px 20px;
+      border:none;
+      background:#0077ff;
+      color:white;
+      border-radius:5px;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:#0055cc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Awesome Website</h1>
+    <p>Simple HTML & CSS Website</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Welcome</h1>
+      <p>Create beautiful websites with HTML & CSS</p>
+      <button>Get Started</button>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Our Services</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Modern and responsive website designs.</p>
+      </div>
+
+      <div class="card">
+        <h3>Development</h3>
+        <p>Fast and optimized web applications.</p>
+      </div>
+
+      <div class="card">
+        <h3>SEO</h3>
+        <p>Improve your website ranking on Google.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 My Website | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
